@@ -56,18 +56,11 @@
 }
 
 
-% This will generate the outline. If you have several topics, uncomment the multicols 
 \begin{frame}
 \frametitle{Outline}
-% \begin{multicols}{2} 
    \tableofcontents
-% \end{multicols}
 \end{frame}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Some Examples %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
 
@@ -102,11 +95,11 @@ Machine like the Power7 cluster at BlueFern and Fitzroy at NIWA are geared towar
 
 \begin{block}{High-throughput job}
 Running high-throughput jobs efficiently on these systems requires a little bit of thinking ahead and care.
-We will "steal" the MPI workflow to achieve this. Machines like Pan in Auckland are geared more towards high-throughput jobs but applying the techniques presented could be beneficial on it as well.
+We will "steal" the MPI workflow to achieve this. Machines like Pan in Auckland are geared more towards high-throughput and medium size MPI jobs but applying the techniques presented here could be beneficial on it as well.
 \end{block}
 }
 
-\subsection{Eshan's Simulations}
+\subsection{Ehsan's Simulations}
 \frame[t]{
 \frametitle{Ehsan's Simulations}
 Ehsan is a PhD student in computer science. His problem is simulating wireless networks to improve the efficiency of the communication in mobile devices.
@@ -148,7 +141,7 @@ There are two main ways of packaging serial jobs to pass them as MPI distributed
 \end{itemize}
 }
 \frame[t]{
-\frametitle{MPMP: Multiple Program Multiple Data}
+\frametitle{MPMD: Multiple Program Multiple Data}
 \begin{multicols}{2}
 \begin{figure}
 \includegraphics[scale=0.5]{smpd_task.pdf}
