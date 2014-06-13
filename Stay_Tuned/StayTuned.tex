@@ -85,16 +85,14 @@
   \end{block}
 }
 
-\subsection{Who we are?}
-
 \frame[t]
 {
   \frametitle{About NeSI CS Team}
    \begin{block}{Which is the main goal of a shared HPC facility}
    \begin{itemize}%[<+-| alert@+>]
 	\item Run few jobs really fast? - no matter what their efficiency are.
-	\item Run the maximum number of jobs? - in favour of  short and small jobs. 
-	\item NeSI provides a wise combination by optimising the usage of computational resources. 
+	\item Run the maximum number of jobs? - in favour of short and small jobs. 
+	\item NeSI provides a wise combination by optimising the usage of computational resources.
    \end{itemize}
   \end{block}
 }
@@ -107,7 +105,7 @@
     %  \begin{block}{Top application list}
     \begin{figure}
          \includegraphics[width=0.6\textwidth]{NeSI_img/apps_cputime2.png}
-         \caption{Most popular applications in Pan cluster. We are using \href{https://github.com/a2o/snoopy}{snoopy} to track the applications ran in the cluster. This allow us to get a list of the most popular apps.}
+         \caption{Most popular applications in Pan cluster. We are using \href{https://github.com/a2o/snoopy}{snoopy} to track the applications run in the cluster. This allow us to get a list of the most popular apps.}
     \end{figure}   
   %\end{block}
 }
@@ -243,13 +241,13 @@ Migrate estimates effective population sizes and past migration rates between n 
   \end{block}
 }
 
-\subsection{Increase the efficiency}
+\subsection{Improve the efficiency}
 \frame[t]
 {
   \frametitle{Improve the efficiency}
       \begin{block}{The workflow can save several HPC resources}
  \begin{itemize}
- \item Thanks to the nature of some codes the problem can be transformed into a embarrassing parallel problem.
+ \item Thanks to the nature of some codes, the problem can be transformed into a embarrassing parallel problem.
  \item In some cases it's possible to split large input file into several small files, allowing to run several copies of the same code using  completely independent input files.
  \item In scenarios like these you can achieve a linear scalability.
  \item Several problems related with genomics have this approach.
@@ -306,10 +304,6 @@ threads & split & tuned binaries & SHM & Speed Up & Efficiency \\
 8 & 1000 & 7.61 & • & • & • \\ 
 \hline 
 16 & 1000 & 6.74 & • & • & • \\ 
-
-
-
-
 \hline 
 \end{tabular} 
 \end{center}

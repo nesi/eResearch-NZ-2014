@@ -2,14 +2,13 @@
 \select@language {english}
 \beamer@sectionintoc {1}{About NeSI CS Team}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Who we are?}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Who we are?}{4}{0}{1}
 \beamer@sectionintoc {2}{Identify the Bottlenecks}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Identify the Most Popular Apps}{5}{0}{2}
 \beamer@sectionintoc {3}{Tuning}{7}{0}{3}
 \beamer@subsectionintoc {3}{1}{Profile and Debug}{8}{0}{3}
 \beamer@subsectionintoc {3}{2}{Increase the performance}{9}{0}{3}
 \beamer@subsectionintoc {3}{3}{Discover the scalability limits}{12}{0}{3}
-\beamer@subsectionintoc {3}{4}{Increase the efficiency}{16}{0}{3}
+\beamer@subsectionintoc {3}{4}{Improve the efficiency}{16}{0}{3}
 \beamer@sectionintoc {4}{Back to the future}{21}{0}{4}
 \beamer@subsectionintoc {4}{1}{Moore's Law}{21}{0}{4}
 \beamer@subsectionintoc {4}{2}{Sequencing cost}{22}{0}{4}
