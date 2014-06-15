@@ -163,15 +163,51 @@
   \end{block}
 }
 
+
 \subsection{Increase the performance}
 \frame[t]
 {
   \frametitle{Increase the performance}
-  \begin{block}{PhyML Case Study - Dr. Stéphane Guindon (UoA)}
+  \begin{block}{VASP Case Study}
+  \textbf{The Vienna Ab initio Simulation Package} (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.
+%VASP computes an approximate solution to the many-body Schrödinger equation, either within DFT, solving the Kohn-Sham equations, or within the HF approximation, solving the Roothaan equations. Hybrid functionals that mix the HF approach with DFT are implemented as well. Furthermore, Green's functions methods (GW quasiparticles, and ACFDT-RPA) and many-body perturbation theory (2nd-order Møller-Plesset) are also available.
+%To determine the electronic groundstate, VASP makes use of efficient iterative matrix diagonalisation techniques, like the residual minimisation method with direct inversion of the iterative subspace (RMM-DIIS) or blocked Davidson algorithms. These are coupled to highly efficient Broyden and Pulay density mixing schemes to speed up the self-consistency cycle.
+  \end{block}
+  \begin{block}{Benchmark provided by Dr. Krista Grace (Victoria University)}
+ It describes finite temperature molecular dynamics simulation of a 128-atom bulk gallium super-cell (8 atoms to a normal unit cell, 16 unit cells), using 3x3x3 KPOINT mesh at medium precision (higher FFT-gridding) and allowing for spin polarization.
+  \end{block}
+}
+
+
+\frame[t]
+{
+  \frametitle{Increase the performance}
+      \begin{block}{VASP Case Study : Speed Up}
+\begin{center}
+ \includegraphics[width=\textwidth]{NeSI_img/VASP_MD-speedup.png}
+\end{center}
+  \end{block}
+}
+
+\frame[t]
+{
+  \frametitle{Increase the performance}
+      \begin{block}{VASP Case Study : Efficiency}
+\begin{center}
+ \includegraphics[width=\textwidth]{NeSI_img/VASP_MD-efficiency.png}
+\end{center}
+  \end{block}
+}
+
+\subsection{Increase the performance}
+\frame[t]
+{
+  \frametitle{Increase the performance}
+  \begin{block}{PhyML Case Study}
   \textbf{PhyML} is a software that estimates maximum likelihood phylogenies from alignments of nucleotide or amino acid sequences. The main strength of PhyML lies in the large number of substitution models coupled to various options to search the space of phylogenetic tree topologies, going from very fast and efficient methods to slower but generally more accurate approaches.
   \end{block}
-  \begin{block}{Using the right tools}
-In this case, the right compilers and optimization options for an specific architecture increased the performance up to x6.
+  \begin{block}{Developed by Dr. Stéphane Guindon (UoA)}
+  PhyML is developed in NZ and is world-famous software in Phylogenetics. In this case, the right compilers and optimization options for an specific architecture increased the performance up to x6.
   \end{block}
 }
 
