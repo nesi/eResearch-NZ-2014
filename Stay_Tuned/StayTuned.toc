@@ -7,9 +7,8 @@
 \beamer@sectionintoc {3}{Tuning}{7}{0}{3}
 \beamer@subsectionintoc {3}{1}{Profile and Debug}{8}{0}{3}
 \beamer@subsectionintoc {3}{2}{Increase the performance}{9}{0}{3}
-\beamer@subsectionintoc {3}{3}{Increase the performance}{12}{0}{3}
-\beamer@subsectionintoc {3}{4}{Discover the scalability limits}{15}{0}{3}
-\beamer@subsectionintoc {3}{5}{Improve the efficiency}{19}{0}{3}
-\beamer@sectionintoc {4}{Back to the future}{24}{0}{4}
-\beamer@subsectionintoc {4}{1}{Moore's Law}{24}{0}{4}
-\beamer@subsectionintoc {4}{2}{Sequencing cost}{25}{0}{4}
+\beamer@subsectionintoc {3}{3}{Discover the scalability limits}{15}{0}{3}
+\beamer@subsectionintoc {3}{4}{Improve the efficiency}{18}{0}{3}
+\beamer@sectionintoc {4}{Back to the future}{23}{0}{4}
+\beamer@subsectionintoc {4}{1}{Moore's Law}{23}{0}{4}
+\beamer@subsectionintoc {4}{2}{Sequencing cost}{24}{0}{4}

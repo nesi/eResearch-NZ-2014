@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 JUN 2014 09:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  19 JUN 2014 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1274,7 +1274,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 49.
 \c@lstlisting=\count210
 
-(./StayTuned.nav) <NeSI_img/Slide00.png, id=100, 722.7pt x 542.025pt>
+(./StayTuned.nav) <NeSI_img/Slide00.png, id=95, 722.7pt x 542.025pt>
 File: NeSI_img/Slide00.png Graphic file (type png)
 
 <use NeSI_img/Slide00.png>
@@ -1294,7 +1294,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 
 [2
 
-] <NeSI_img/pingu-friend.jpg, id=237, 433.62pt x 380.42125pt>
+] <NeSI_img/pingu-friend.jpg, id=229, 433.62pt x 380.42125pt>
 File: NeSI_img/pingu-friend.jpg Graphic file (type jpg)
 
 <use NeSI_img/pingu-friend.jpg>
@@ -1314,7 +1314,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 [4
 
-] <NeSI_img/apps_cputime2.png, id=352, 445.665pt x 369.38pt>
+] <NeSI_img/apps_cputime2.png, id=342, 445.665pt x 369.38pt>
 File: NeSI_img/apps_cputime2.png Graphic file (type png)
 
 <use NeSI_img/apps_cputime2.png>
@@ -1327,7 +1327,7 @@ Overfull \vbox (7.14157pt too high) detected at line 111
 [5
 
  <./NeSI_img/apps_cputime2.png>]
-<NeSI_img/Performance_improvements.png, id=413, 1168.365pt x 334.24875pt>
+<NeSI_img/Performance_improvements.png, id=402, 1168.365pt x 334.24875pt>
 File: NeSI_img/Performance_improvements.png Graphic file (type png)
 
 <use NeSI_img/Performance_improvements.png>
@@ -1347,7 +1347,7 @@ Overfull \vbox (1.38718pt too high) detected at line 127
 ] [9
 
 ]
-<NeSI_img/VASP_MD-speedup.png, id=644, 785.93625pt x 372.39125pt>
+<NeSI_img/VASP_MD-speedup.png, id=629, 785.93625pt x 372.39125pt>
 File: NeSI_img/VASP_MD-speedup.png Graphic file (type png)
 
 <use NeSI_img/VASP_MD-speedup.png>
@@ -1356,7 +1356,7 @@ Package pdftex.def Info: NeSI_img/VASP_MD-speedup.png used on input line 190.
  [10
 
  <./NeSI_img/VASP_MD-speedup.png>]
-<NeSI_img/VASP_MD-efficiency.png, id=702, 787.94376pt x 357.335pt>
+<NeSI_img/VASP_MD-efficiency.png, id=686, 787.94376pt x 357.335pt>
 File: NeSI_img/VASP_MD-efficiency.png Graphic file (type png)
 
 <use NeSI_img/VASP_MD-efficiency.png>
@@ -1368,20 +1368,20 @@ Package pdftex.def Info: NeSI_img/VASP_MD-efficiency.png used on input line 200
  <./NeSI_img/VASP_MD-efficiency.png>]
 [12
 
-] <NeSI_img/speedup-phyml.png, id=817, 785.93625pt x 372.39125pt>
+] <NeSI_img/speedup-phyml.png, id=799, 785.93625pt x 372.39125pt>
 File: NeSI_img/speedup-phyml.png Graphic file (type png)
 
 <use NeSI_img/speedup-phyml.png>
-Package pdftex.def Info: NeSI_img/speedup-phyml.png used on input line 222.
+Package pdftex.def Info: NeSI_img/speedup-phyml.png used on input line 221.
 (pdftex.def)             Requested size: 307.28987pt x 145.60133pt.
  [13
 
  <./NeSI_img/speedup-phyml.png (PNG copy)>] <NeSI_img/performance-phyml.png, id
-=876, 787.94376pt x 357.335pt>
+=857, 787.94376pt x 357.335pt>
 File: NeSI_img/performance-phyml.png Graphic file (type png)
 
 <use NeSI_img/performance-phyml.png>
-Package pdftex.def Info: NeSI_img/performance-phyml.png used on input line 232.
+Package pdftex.def Info: NeSI_img/performance-phyml.png used on input line 231.
 
 (pdftex.def)             Requested size: 307.28987pt x 139.35463pt.
  [14
@@ -1391,68 +1391,59 @@ Package pdftex.def Info: NeSI_img/performance-phyml.png used on input line 232.
 ] [16
 
 ]
-<NeSI_img/scalability-migrate-n.png, id=1047, 785.93625pt x 372.39125pt>
+<NeSI_img/scalability-migrate-n.png, id=1026, 785.93625pt x 372.39125pt>
 File: NeSI_img/scalability-migrate-n.png Graphic file (type png)
 
 <use NeSI_img/scalability-migrate-n.png>
 Package pdftex.def Info: NeSI_img/scalability-migrate-n.png used on input line 
-268.
+270.
 (pdftex.def)             Requested size: 307.28987pt x 145.60133pt.
  [17
 
- <./NeSI_img/scalability-migrate-n.png (PNG copy)>]
-<NeSI_img/speedup-namd.png, id=1104, 785.93625pt x 372.39125pt>
-File: NeSI_img/speedup-namd.png Graphic file (type png)
+ <./NeSI_img/scalability-migrate-n.png (PNG copy)>] [18
 
-<use NeSI_img/speedup-namd.png>
-Package pdftex.def Info: NeSI_img/speedup-namd.png used on input line 278.
-(pdftex.def)             Requested size: 307.28987pt x 145.60133pt.
- [18
+] [19
 
- <./NeSI_img/speedup-namd.png (PNG copy)>]
-[19
-
-] [20
-
-] <NeSI_img/speedup-blast.png, id=1276, 827.09pt x 384.43625pt>
+]
+<NeSI_img/speedup-blast.png, id=1194, 827.09pt x 384.43625pt>
 File: NeSI_img/speedup-blast.png Graphic file (type png)
 
 <use NeSI_img/speedup-blast.png>
-Package pdftex.def Info: NeSI_img/speedup-blast.png used on input line 314.
+Package pdftex.def Info: NeSI_img/speedup-blast.png used on input line 316.
 (pdftex.def)             Requested size: 307.28987pt x 142.83165pt.
- [21
+ [20
 
- <./NeSI_img/speedup-blast.png (PNG copy)>] <NeSI_img/jobsh-blast.png, id=1334,
+ <./NeSI_img/speedup-blast.png (PNG copy)>] <NeSI_img/jobsh-blast.png, id=1251,
  881.2925pt x 409.53pt>
 File: NeSI_img/jobsh-blast.png Graphic file (type png)
 
 <use NeSI_img/jobsh-blast.png>
-Package pdftex.def Info: NeSI_img/jobsh-blast.png used on input line 325.
+Package pdftex.def Info: NeSI_img/jobsh-blast.png used on input line 327.
 (pdftex.def)             Requested size: 307.28987pt x 142.79398pt.
- [22
+ [21
 
  <./NeSI_img/jobsh-blast.png (PNG copy)>]
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 347.
+line 349.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2012/04/26
-) [23
+) [22
 
-] <NeSI_img/Moores-law.png, id=1448, 753.81625pt x 551.05875pt>
+] <NeSI_img/Moores-law.png, id=1363, 753.81625pt x 551.05875pt>
 File: NeSI_img/Moores-law.png Graphic file (type png)
 
 <use NeSI_img/Moores-law.png>
-Package pdftex.def Info: NeSI_img/Moores-law.png used on input line 360.
+Package pdftex.def Info: NeSI_img/Moores-law.png used on input line 362.
 (pdftex.def)             Requested size: 245.83282pt x 179.70578pt.
 
-Overfull \vbox (10.9924pt too high) detected at line 360
+Overfull \vbox (10.9924pt too high) detected at line 362
  []
 
-[24
+[23
 
  <./NeSI_img/Moores-law.png>]
-<NeSI_img/cost_per_genome_apr01.jpg, id=1505, 722.7pt x 542.025pt>
+<NeSI_img/cost_per_genome_apr01.jpg, id=1419, 722.7pt x 542.025pt>
 File: NeSI_img/cost_per_genome_apr01.jpg Graphic file (type jpg)
 
 <use NeSI_img/cost_per_genome_apr01.jpg>
@@ -1463,19 +1454,19 @@ Package pdftex.def Info: NeSI_img/cost_per_genome_apr01.jpg used on input line
 Overfull \vbox (14.41093pt too high) detected at line 373
  []
 
-[25
+[24
 
  <./NeSI_img/cost_per_genome_apr01.jpg>]
-<NeSI_img/bttf-logo.png, id=1564, 572.1375pt x 260.975pt>
+<NeSI_img/bttf-logo.png, id=1476, 572.1375pt x 260.975pt>
 File: NeSI_img/bttf-logo.png Graphic file (type png)
 
 <use NeSI_img/bttf-logo.png>
 Package pdftex.def Info: NeSI_img/bttf-logo.png used on input line 383.
 (pdftex.def)             Requested size: 301.14275pt x 137.36435pt.
- [26
+ [25
 
  <./NeSI_img/bttf-logo.png>]
-<NeSI_img/cost_per_genome_apr02.jpg, id=1622, 722.7pt x 542.025pt>
+<NeSI_img/cost_per_genome_apr02.jpg, id=1534, 722.7pt x 542.025pt>
 File: NeSI_img/cost_per_genome_apr02.jpg Graphic file (type jpg)
 
 <use NeSI_img/cost_per_genome_apr02.jpg>
@@ -1486,19 +1477,19 @@ Package pdftex.def Info: NeSI_img/cost_per_genome_apr02.jpg used on input line
 Overfull \vbox (14.41093pt too high) detected at line 393
  []
 
-[27
+[26
 
  <./NeSI_img/cost_per_genome_apr02.jpg>]
-<NeSI_img/back2thefuture-clock.png, id=1680, 719.68875pt x 406.51875pt>
+<NeSI_img/back2thefuture-clock.png, id=1591, 719.68875pt x 406.51875pt>
 File: NeSI_img/back2thefuture-clock.png Graphic file (type png)
 
 <use NeSI_img/back2thefuture-clock.png>
 Package pdftex.def Info: NeSI_img/back2thefuture-clock.png used on input line 4
 03.
 (pdftex.def)             Requested size: 245.83282pt x 138.85965pt.
- [28
+ [27
 
- <./NeSI_img/back2thefuture-clock.png>] <NeSI_img/Stay-Tuned.jpg, id=1737, 323.
+ <./NeSI_img/back2thefuture-clock.png>] <NeSI_img/Stay-Tuned.jpg, id=1648, 323.
 2878pt x 250.0542pt>
 File: NeSI_img/Stay-Tuned.jpg Graphic file (type jpg)
 
@@ -1509,14 +1500,14 @@ Package pdftex.def Info: NeSI_img/Stay-Tuned.jpg used on input line 412.
 Overfull \vbox (13.8193pt too high) detected at line 412
  []
 
-[29
+[28
 
  <./NeSI_img/Stay-Tuned.jpg>]
 File: NeSI_img/Slide00.png Graphic file (type png)
  <use NeSI_img/Slide00.png>
 Package pdftex.def Info: NeSI_img/Slide00.png used on input line 420.
 (pdftex.def)             Requested size: 360.56615pt x 270.41664pt.
- [30
+ [29
 
 ]
 \tf@nav=\write6
@@ -1535,7 +1526,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 424.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 424.
 Package rerunfilecheck Info: File `StayTuned.out' has not changed.
-(rerunfilecheck)             Checksum: 098F351460F86841DFA8AA7A4815CAB9;841.
+(rerunfilecheck)             Checksum: 3C121FA83E368E75E00314C42B8434E4;766.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1547,27 +1538,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 424.
  ) 
 Here is how much of TeX's memory you used:
- 18502 strings out of 493488
- 337399 string characters out of 3141326
- 441394 words of memory out of 3000000
- 21224 multiletter control sequences out of 15000+200000
- 19656 words of font info for 52 fonts, out of 3000000 for 9000
+ 18491 strings out of 493488
+ 337207 string characters out of 3141326
+ 439806 words of memory out of 3000000
+ 21216 multiletter control sequences out of 15000+200000
+ 20483 words of font info for 53 fonts, out of 3000000 for 9000
  958 hyphenation exceptions out of 8191
- 49i,20n,53p,444b,755s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,20n,53p,645b,755s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfsx0600.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on StayTuned.pdf (30 pages, 3216045 bytes).
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/cm-super/sfsx0600.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on StayTuned.pdf (29 pages, 3206859 bytes).
 PDF statistics:
- 1868 PDF objects out of 2073 (max. 8388607)
- 1743 compressed objects within 18 object streams
- 72 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1780 PDF objects out of 2073 (max. 8388607)
+ 1658 compressed objects within 17 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

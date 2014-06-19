@@ -34,54 +34,51 @@
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\slideentry {3}{2}{3}{11/11}{Increase the performance}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{12}{Increase the performance}}\headcommand {\beamer@subsectionpages {9}{11}}
-\headcommand {\slideentry {3}{3}{1}{12/12}{Increase the performance}{0}}
+\headcommand {\slideentry {3}{2}{4}{12/12}{Increase the performance}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {3}{3}{2}{13/13}{Increase the performance}{0}}
+\headcommand {\slideentry {3}{2}{5}{13/13}{Increase the performance}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {3}{3}{3}{14/14}{Increase the performance}{0}}
+\headcommand {\slideentry {3}{2}{6}{14/14}{Increase the performance}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{15}{Discover the scalability limits}}\headcommand {\beamer@subsectionpages {12}{14}}
-\headcommand {\slideentry {3}{4}{1}{15/15}{Discover the scalability limits}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{15}{Discover the scalability limits}}\headcommand {\beamer@subsectionpages {9}{14}}
+\headcommand {\slideentry {3}{3}{1}{15/15}{Discover the scalability limits}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {3}{4}{2}{16/16}{Discover the scalability limits}{0}}
+\headcommand {\slideentry {3}{3}{2}{16/16}{Discover the scalability limits}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {3}{4}{3}{17/17}{Discover the scalability limits}{0}}
+\headcommand {\slideentry {3}{3}{3}{17/17}{Discover the scalability limits}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {3}{4}{4}{18/18}{Discover the scalability limits}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{18}{Improve the efficiency}}\headcommand {\beamer@subsectionpages {15}{17}}
+\headcommand {\slideentry {3}{4}{1}{18/18}{Improve the efficiency}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{19}{Improve the efficiency}}\headcommand {\beamer@subsectionpages {15}{18}}
-\headcommand {\slideentry {3}{5}{1}{19/19}{Improve the efficiency}{0}}
+\headcommand {\slideentry {3}{4}{2}{19/19}{Improve the efficiency}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {3}{5}{2}{20/20}{Improve the efficiency}{0}}
+\headcommand {\slideentry {3}{4}{3}{20/20}{Improve the efficiency}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {3}{5}{3}{21/21}{Improve the efficiency}{0}}
+\headcommand {\slideentry {3}{4}{4}{21/21}{Improve the efficiency}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {3}{5}{4}{22/22}{Improve the efficiency}{0}}
+\headcommand {\slideentry {3}{4}{5}{22/22}{Improve the efficiency}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {3}{5}{5}{23/23}{Improve the efficiency}{0}}
+\headcommand {\sectionentry {4}{Back to the future}{23}{Back to the future}{0}}
+\headcommand {\beamer@sectionpages {7}{22}}
+\headcommand {\beamer@subsectionpages {18}{22}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{23}{Moore's Law}}\headcommand {\beamer@subsectionpages {23}{22}}
+\headcommand {\slideentry {4}{1}{1}{23/23}{Moore's Law}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\sectionentry {4}{Back to the future}{24}{Back to the future}{0}}
-\headcommand {\beamer@sectionpages {7}{23}}
-\headcommand {\beamer@subsectionpages {19}{23}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{24}{Moore's Law}}\headcommand {\beamer@subsectionpages {24}{23}}
-\headcommand {\slideentry {4}{1}{1}{24/24}{Moore's Law}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{24}{Sequencing cost}}\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\slideentry {4}{2}{1}{24/24}{Sequencing cost}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{25}{Sequencing cost}}\headcommand {\beamer@subsectionpages {24}{24}}
-\headcommand {\slideentry {4}{2}{1}{25/25}{Sequencing cost}{0}}
+\headcommand {\slideentry {4}{2}{2}{25/25}{Sequencing cost}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {4}{2}{2}{26/26}{Sequencing cost}{0}}
+\headcommand {\slideentry {4}{2}{3}{26/26}{Sequencing cost}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {4}{2}{3}{27/27}{Sequencing cost}{0}}
+\headcommand {\slideentry {4}{2}{4}{27/27}{Sequencing cost}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {4}{2}{4}{28/28}{Sequencing cost}{0}}
+\headcommand {\slideentry {4}{2}{5}{28/28}{Sequencing cost}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {4}{2}{5}{29/29}{Sequencing cost}{0}}
+\headcommand {\slideentry {4}{2}{6}{29/29}{Sequencing cost}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {4}{2}{6}{30/30}{Sequencing cost}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
-\headcommand {\beamer@subsectionpages {25}{30}}
-\headcommand {\beamer@sectionpages {24}{30}}
-\headcommand {\beamer@documentpages {30}}
-\headcommand {\def \inserttotalframenumber {30}}
+\headcommand {\beamer@partpages {1}{29}}
+\headcommand {\beamer@subsectionpages {24}{29}}
+\headcommand {\beamer@sectionpages {23}{29}}
+\headcommand {\beamer@documentpages {29}}
+\headcommand {\def \inserttotalframenumber {29}}
