@@ -31,13 +31,26 @@
 %NeSI Template parameters <-------------------------------------------------------------------------
 \setbeamertemplate{blocks}[default]
 \useinnertheme{circles}
+\setbeamertemplate{footline}
+{
+ \leavevmode
+ \begin{beamercolorbox}[wd=.35\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}
+   \usebeamerfont{author in head/foot}\insertshortauthor
+ \end{beamercolorbox}
+ \begin{beamercolorbox}[wd=.65\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}
+   \usebeamerfont{title in head/foot}\insertshorttitle
+ \end{beamercolorbox}
+ \vskip0pt
+}
 \setbeamertemplate{title page}[default][center,rounded=false,shadow=false]
 \newcommand\BackgroundPicture[1]{%
-\setbeamertemplate{background}{%
-\parbox[c][\paperheight]{\paperwidth}{%
-\vfill \hfill \includegraphics[height=0.9\paperheight]{#1}
-\hfill \vfill
-}}}
+	\setbeamertemplate{background}{%
+		\parbox[c][\paperheight]{\paperwidth}{%
+			\vfill \hfill \includegraphics[height=0.9\paperheight]{#1}
+			\hfill \vfill
+		}
+	}
+}
 
 %Content Starts Here <-------------------------------------------------------------------------------
 \title{Studying allosteric enzyme inhibition using simulated molecular dynamics}
@@ -71,7 +84,7 @@
 
 \section{Background}
 
-\subsection{Antibiotics}
+\subsection{Antibiotic resistance}
 % List with bullets (itemize) <---
 % The [<+-| alert@+>] will create a new slide for each element with highlighting 
 \frame[t]
@@ -113,6 +126,15 @@
 	\item Often involves binding at another site (``allosteric inhibition'')
    \end{itemize}
 \end{block}
+}
+
+% Include Graphics <---
+\frame[t]
+{
+  \frametitle{Enzyme Inhibition}
+\begin{center}
+ \includegraphics[width=0.75\textwidth]{Enzyme_inhibition.png}
+\end{center}
 }
 
 % Include Graphics <---
@@ -180,7 +202,7 @@
    \begin{block}{Computers}
    \begin{enumerate}%[<+-| alert@+>]
 	\item Computing power on BlueGene/P and POWER 7
-	\item Software: NAMD, Amber
+	\item Software: NAMD (simulations), Amber (post-processing)
    \end{enumerate}
   \end{block}
    \begin{block}{Expertise}
