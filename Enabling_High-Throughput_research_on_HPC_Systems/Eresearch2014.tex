@@ -69,7 +69,7 @@
 \frametitle{Introduction}
 \begin{block}{Two types of fundamental workflow for HPC}
 \begin{itemize}
- \item Large distributed memory jobs (MPI)
+ \item Large distributed memory (MPI) jobs
  \item High-throughput jobs
 \end{itemize}
 \end{block}
@@ -112,7 +112,7 @@ Ehsan is a PhD student in computer science. His problem is simulating wireless n
 \item developed a custom solution to contain him to a set of nodes
 \item we later found out that it was equivalent to using MPMD
 \end{itemize}
-We now identify high-throughput project quickly and offer them better solutions as soon as possible.
+We now identify high-throughput projects quickly and offer them better solutions as soon as possible.
 }
 
 \section{Solutions}
@@ -135,7 +135,7 @@ There are two main ways of packaging serial jobs to pass them as MPI distributed
 \begin{itemize}
 \item Nick Baker is a PhD student in biological sciences with a background in mathematics. He studies ecological networks (complex food chains).
 
-\item His work focuses on analysing networks to find "keystone" species that are essential to the network. The work is what we call embarrassingly parallel, he has to go through a high number of networks and perform his analyses on each and everyone of them.
+\item His work focuses on analysing networks to find "keystone" species that are essential to the network. The work is what we call embarrassingly parallel, he has to go through a high number of networks and perform his analyses on each and every one of them.
 
 \item I spotted him on the cluster running four jobs at a time out of close to a hundred. There was definitely room for improvement. He became a test subject for MPMD
 \end{itemize}
@@ -160,7 +160,7 @@ MPMD: Programs, not necessarily identical, process distinct data.
 
 \begin{frame}[fragile]
 \frametitle{MPMD jobs at BlueFern (and Fitzroy)}
-At BlueFern and Fitzroy such jobs can be launched with the following
+At BlueFern and Fitzroy, such jobs can be launched with the following
 \begin{small}
 \begin{verbatim}
 poe -procs N -pgmmodel mpmd -cmdfile cmdfile.txt
@@ -175,7 +175,7 @@ program2 data2
 programN dataN
 \end{verbatim}
 \end{small}
-Note that the number of commands matches the number of core requested. Now, Nick usually processes 32 networks per jobs instead of one.
+Note that the number of commands matches the number of cores requested. Now, Nick usually processes 32 networks per job instead of one.
 \end{frame}
 
 \subsection{Jing Wang, DNA matching with batcher}
@@ -191,11 +191,11 @@ Note that the number of commands matches the number of core requested. Now, Nick
 
 \frame[t]{
 \frametitle{Batcher: Master and Worker}
-A batcher program uses a different MPI mode: the ability for one program to be a master that spawn workers to do various jobs on demand.
+A batcher program uses a different MPI mode: the ability for one program to be a master that spawns workers to do various jobs on demand.
 
-The batcher program like the MPMD will take a list of tasks. In MPMD all tasks are started at once but not with batcher. If you give batcher more tasks than you have cores, it will fill the cores given and as tasks finishes it will start the next one in the list until the list is finished.
+Like MPMD, the batcher program will take a list of tasks. Unlike MPMD, however, batcher does not start all tasks at once. If you give batcher more tasks than you have cores, it will fill the cores given. When one task finishes, it will start the next one in the list until all tasks are completed.
 
-Instead of building packets to match the number of cores requested (MPMD) you can package in units that makes sense.
+Instead of building packets to match the number of cores requested (MPMD) you can package in units that make sense.
 }
 
 \begin{frame}[fragile]
@@ -225,7 +225,7 @@ programN dataN >> outN.log
 Pros:
 \begin{itemize}
 \item Can group any number of tasks
-\item tasks that complete quickly will be replaced by new tasks while the longer one finishes
+\item tasks that complete quickly will be replaced by new tasks while the longer ones finish
 \end{itemize}
 Cons:
 \begin{itemize}
@@ -239,7 +239,7 @@ Pros:
 \end{itemize}
 Cons: 
 \begin{itemize}
-\item if some tasks are much longer than other some cores will be idle
+\item if some tasks are much longer than others some cores will be idle
 \item number of tasks must be equal to number of cores
 \end{itemize}
 \end{block}
@@ -253,7 +253,7 @@ Cons:
 \item Lots of serial jobs are not a good thing on a machine tuned for MPI jobs
 \item We solve this by packing the serial jobs in a way that make look like MPI jobs
 \item It increases your throughput at BlueFern and Fitzroy
-\item It make the life of your cluster administrator easier
+\item It makes the life of your cluster administrator easier
 \item MPMD is best suited for tasks of equal length (lattice QCD, Monte-Carlo)
 \item batcher is best suited for the rest
 \item Jobs can also be packaged on the Pan cluster in Auckland but the MPMD submission would be different.
