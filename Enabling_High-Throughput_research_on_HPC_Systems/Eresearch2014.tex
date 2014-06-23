@@ -102,7 +102,7 @@ We will "steal" the MPI workflow to achieve this. Machines like Pan in Auckland 
 \subsection{Ehsan's Simulations}
 \frame[t]{
 \frametitle{Ehsan's Simulations}
-Ehsan is a PhD student in computer science. His problem is simulating wireless networks to improve the efficiency of the communication in mobile devices.
+Ehsan Yasdi is a PhD student in computer science. His problem is simulating wireless networks to improve the efficiency of the communication in mobile devices.
 
 \begin{itemize}
 \item first submission to the cluster was 40,000 simulations
@@ -110,6 +110,7 @@ Ehsan is a PhD student in computer science. His problem is simulating wireless n
 \item first reaction: increase the number of simulations he can run (after all they are not big MPI jobs)
 \item Bad idea: the simulations were spread all over the cluster blocking big MPI jobs
 \item developed a custom solution to contain him to a set of nodes
+\item Since then, his time to run simulations has gone from 3 weeks to 3 days. He presented  5 talks at international conferences
 \item we later found out that it was equivalent to using MPMD
 \end{itemize}
 We now identify high-throughput projects quickly and offer them better solutions as soon as possible.
@@ -138,6 +139,8 @@ There are two main ways of packaging serial jobs to pass them as MPI distributed
 \item His work focuses on analysing networks to find "keystone" species that are essential to the network. The work is what we call embarrassingly parallel, he has to go through a high number of networks and perform his analyses on each and every one of them.
 
 \item I spotted him on the cluster running four jobs at a time out of close to a hundred. There was definitely room for improvement. He became a test subject for MPMD
+
+\item The throughput increase will enable him to study how networks react to other variations such as climate change and loss of habitat amongst other parameters. 
 \end{itemize}
 }
 \frame[t]{
@@ -147,7 +150,7 @@ There are two main ways of packaging serial jobs to pass them as MPI distributed
 \includegraphics[scale=0.5]{smpd_task.pdf}
 \end{figure}
 \begin{center}
-SMPD: Instances of a program process the data distributed amongst them.
+SPMD: Instances of a program process the data distributed amongst them.
 \end{center}
 \begin{figure}
 \includegraphics[scale=0.5]{mpmd_task.pdf} 
@@ -158,26 +161,6 @@ MPMD: Programs, not necessarily identical, process distinct data.
 \end{multicols}
 }
 
-\begin{frame}[fragile]
-\frametitle{MPMD jobs at BlueFern (and Fitzroy)}
-At BlueFern and Fitzroy, such jobs can be launched with the following
-\begin{small}
-\begin{verbatim}
-poe -procs N -pgmmodel mpmd -cmdfile cmdfile.txt
-\end{verbatim}
-\end{small}
-Where \textit{cmdfile.txt} is a list of commands to be executed
-\begin{small}
-\begin{verbatim}
-program1 data1
-program2 data2
-...
-programN dataN
-\end{verbatim}
-\end{small}
-Note that the number of commands matches the number of cores requested. Now, Nick usually processes 32 networks per job instead of one.
-\end{frame}
-
 \subsection{Jing Wang, DNA matching with batcher}
 \frame[t]{
 \frametitle{Jing Wang, DNA matching with batcher}
@@ -185,7 +168,8 @@ Note that the number of commands matches the number of cores requested. Now, Nic
 \item Jing Wang is a researcher at ESR and came to us for several NeSI research projects
 \item The problem is to compare strands of DNA against a database to match sequences of genes
 \item The task can be further broken down by splitting the strands in sections and searching for match in these. 
-\item Searching for sequences in one long DNA strand can take a long time. Doing it on a section is much quicker but now you have to do it on potentially thousands of sections. This has become a high-throughput task.
+\item Searching for sequences in one long DNA strand can take a long time. Doing it on a section is much quicker but now you have to do it on potentially thousands of sections. This has become a high-throughput task
+\item The main focus of the project was to identify new virus and develop a process that can be used in the event of emerging infectious disease outbreaks
 \end{itemize}
 }
 
@@ -197,25 +181,6 @@ Like MPMD, the batcher program will take a list of tasks. Unlike MPMD, however, 
 
 Instead of building packets to match the number of cores requested (MPMD) you can package in units that make sense.
 }
-
-\begin{frame}[fragile]
-\frametitle{Batcher jobs at BlueFern}
-At BlueFern such jobs can be launched with the following
-\begin{small}
-\begin{verbatim}
-poe batcher cmdfile.txt
-\end{verbatim}
-\end{small}
-Where \textit{cmdfile.txt} is a list of commands to be executed
-\begin{small}
-\begin{verbatim}
-program1 data1 >> out1.log
-program2 data2 >> out2.log
-...
-programN dataN >> outN.log 
-\end{verbatim}
-\end{small}
-\end{frame}
 
 \section{Pros and Cons}
 \frame[t]{
